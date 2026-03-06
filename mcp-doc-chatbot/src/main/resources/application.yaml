@@ -1,0 +1,8 @@
+spring:
+  main:
+    web-application-type: none
+
+  # Optional: if you still see noise or other auto-config issues
+  # autoconfigure:
+  #   exclude:
+  #     - org.springframework.boot.autoconfigure.websocket.reactive.WebFluxWebSocketAutoConfiguration
