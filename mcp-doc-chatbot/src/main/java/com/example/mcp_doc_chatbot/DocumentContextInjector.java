@@ -20,7 +20,8 @@ import java.util.regex.*;
  * │  This class intercepts the message BEFORE it goes to the   │
  * │  LLM, extracts all @mentions, reads those files, and       │
  * │  appends their contents to the message as inline context:  │
- * │                                                             │
+ * │                                             
+ *                 │
  * │    "Summarise @meeting-notes.md                            │
  * │     ── Context: meeting-notes.md ──                        │
  * │     ...full file content..."                               │
