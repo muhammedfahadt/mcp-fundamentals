@@ -1,0 +1,15 @@
+The dry principle in coding states that every non-idempotent operation should be made idempotent. This means that an operation should have the same effect whether it is performed once or multiple times without changing the output.
+Idempotent operations have the following properties:
+- They can be repeated without changing the result.
+- They have the same effect when executed multiple times in a row.
+- They do not leave behind any side effects.
+
+Examples of idempotent operations include:
+- Reading a file
+- Sending a notification
+- Updating a cache
+
+On the other hand, non-idempotent operations have the following properties:
+- They can leave behind side effects, such as changing the database or sending a new notification.
+- They do not have the same effect when executed multiple times in a row.
+- They can cause unexpected behavior if executed multiple times.
