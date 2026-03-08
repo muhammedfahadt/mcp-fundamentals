@@ -1,0 +1,1 @@
+The dry principle in coding states that every non-idempotent operation should be made idempotent. This means that an operation should have the same effect whether it is performed once or multiple times without changing the output.
