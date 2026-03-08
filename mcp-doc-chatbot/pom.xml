@@ -51,13 +51,13 @@
     </dependency>
 
     <!--
-      Spring AI OpenAI starter — brings in ChatModel, ChatClient auto-config.
-      Swap this for spring-ai-anthropic-spring-boot-starter, spring-ai-ollama-spring-boot-starter, etc.
+      Spring AI Ollama starter — brings in ChatModel, ChatClient auto-config.
+      Swap this for spring-ai-anthropic-spring-boot-starter, spring-ai-openai-spring-boot-starter, etc.
       The rest of the code stays the same — that's the beauty of Spring AI abstraction.
     -->
     <dependency>
       <groupId>org.springframework.ai</groupId>
-      <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
+      <artifactId>spring-ai-ollama-spring-boot-starter</artifactId>
     </dependency>
 
     <!-- Jansi for coloured terminal output on all OSes -->
