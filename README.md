@@ -17,7 +17,6 @@ with no separate MCP Server involved.
 - How Spring AI manages the agentic tool-call loop automatically
 - Why a standard protocol like MCP becomes necessary at scale
 
----https://github.com/muhammedfahadt/mcp-fundamentals/blob/demo/mcp-doc-chatbot/OLLAMA_SETUP.md
 
 ## Architecture
 
@@ -63,6 +62,8 @@ with no separate MCP Server involved.
 | Method | When | How |
 |--------|------|-----|
 | **@mention injection** | User tags a file: `@todo.txt` | File content added directly to user message *before* LLM call |
+<img width="1044" height="376" alt="image" src="https://github.com/user-attachments/assets/66ba0f1c-7390-4d67-b569-3618d62c0d1d" />
+
 | **Tool call** | LLM decides it needs a file | LLM emits `readDocument("todo.txt")` → Spring AI runs it → result fed back |
 
 The @mention approach is faster (one LLM round-trip).
