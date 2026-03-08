@@ -1,0 +1,10 @@
+TODO List
+=========
+[x] Set up project repo
+[x] Configure CI/CD pipeline
+[ ] Write unit tests for auth module
+[ ] Set up staging environment
+[ ] Write API documentation
+[ ] Performance testing
+[ ] Security audit
+[ ] Deploy to production

@@ -28,8 +28,9 @@ ollama serve
 Once Ollama is running, pull the model you want to use:
 
 ```bash
-# Pull the llama2 model (used in our application)
-ollama pull llama2
+#use a model that supports tools. The `llama3.2` model is a good choice that supports tools
+# Pull the llama3.2 model (used in our application)
+ollama pull llama3.2
 
 # Alternative models you can use:
 ollama pull codellama    # For code-related tasks
